@@ -13,7 +13,7 @@ const Daily = ({task}) => {
                     <div className="flex flex-col items-center w-10 mr-4 md:w-24">
                         <div>
                             <div
-                                className={`flex items-center justify-center text-white text-lg w-10 h-10 rounded-full`}
+                                className={`flex border border-gray-400 items-center justify-center text-white text-lg w-10 h-10 rounded-full`}
                                 style={{background: task.color}}
                                 >
                                 {task.icon}
